@@ -23,7 +23,7 @@ end
 
 if __FILE__ == $0
   rf = Rfid.new
-  puts "········ESPERANT LECTURA··········".bold.red
+  puts "ESPERANT_LECTURA".bold.red
   uid = rf.read_uid
-  puts "           "+uid.bold.cyan
+  puts ""+uid.bold.cyan
 end
